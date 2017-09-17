@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ <style>
+ *{ margin:0;
+   padding:0;
+   }
+   /* 消除圆点*/
+li{list-style:none;}
+ /*设置元素 underline下划线 overline上划线 line-through 删除线 none消除下划线*/
+ a{text-decoration:none;}
+ img{ border:none;}
+ .header{width:1003px;
+         height:78px;
+		 background:url(images/head_bg.jpg);
+		 margin:0 auto;
+		 }
+ .header img{float:left;
+ }
+ .header .nav{float:right;}
+
+ .header .nav li{
+			float:left; width:90px; height:78px; background:url(images/menu_bg.jpg);
+			/* 设置文本左右对齐方式，center为居中，left居左，right居中 */
+			text-align:center;
+			line-height:78px; font-size:14px;
+		}
+		.header .nav li a{
+			color:blue;
+		}
+		.header .nav li a:hover{
+			color:red; text-decoration:underline;
+		}
+ 
+
+ </style>
+
+ </head>
+ <body>
+ <!--结构里面分为三种关系：1；子级（儿子）2；平级（兄弟）3；父级（老爹）-->
+  <!-顶部-->
+  <div class="header">
+	<a href="#">
+	<img src="images/logo.jpg"/>
+	</a>
+
+   <ul class="nav">
+	 <li><a href="#">首　页</a></li>
+	 <li><a href="#">企业新闻</a></li>  
+	 <li><a href="#">行业动态</a></li>
+	 <li><a href="#">企业理念</a></li>
+	 <li><a href="#">网站留言</a></li>
+  </ul>
+  </div>
+
+ 
+
+ </body>
+</html>
